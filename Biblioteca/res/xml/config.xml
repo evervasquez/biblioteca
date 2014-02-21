@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+	    android:title="@string/pre_url_title">
+	    <EditTextPreference
+	    android:title="@string/pre_url"
+	    android:summary="@string/pre_summary"
+	    android:key="prefUrl"
+	    android:dialogTitle="@string/pre_url_dialog"
+	    />
+	    <EditTextPreference
+	    android:title="@string/pre_web"
+	    android:summary="@string/pre_summaryweb"
+	    android:key="prefWeb"
+	    android:dialogTitle="@string/pre_web_dialog"
+	    />
+	</PreferenceCategory> 
+</PreferenceScreen>

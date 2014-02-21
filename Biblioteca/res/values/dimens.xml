@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textActionBar">20dp</dimen>
+    <dimen name="padding_img">5dp</dimen>
+    <dimen name="drawer_width">240dp</dimen>
+    <dimen name="card_birth_width">300dp</dimen>
+</resources>

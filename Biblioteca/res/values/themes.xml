@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar" >
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.Sherlock.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+    
+    <style name="CustomText" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_textcolor</item>
+        <item name="android:textSize">@dimen/textActionBar</item>
+        
+    </style>
+</resources>
