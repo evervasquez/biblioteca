@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/itemContainer"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	style="@style/list_item_single_custom">    
+    <ImageView android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name"/>
+    <LinearLayout android:duplicateParentState="true" android:gravity="center_vertical" android:paddingLeft="10dip" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:text="@string/titulo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/titleui" style="@style/content_page_large_text" />
+        <RelativeLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="30dip">
+        	<TextView android:text="@string/fecha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/fecha" android:visibility="visible" android:gravity="center_vertical" android:layout_centerVertical="true" style="@style/content_page_small_text" />
+        	<TextView android:text="@string/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/subtitle1" android:visibility="visible" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingRight="10dip" android:indeterminateOnly="true" style="@style/content_page_small_text" />
+        </RelativeLayout>
+        <RelativeLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="30dip">
+        	<TextView android:text="@string/usuario" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/usuario" android:visibility="visible" android:gravity="center_vertical" android:layout_centerVertical="true" style="@style/content_page_small_text" />
+        	<TextView android:text="@string/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/subtitle2" android:visibility="visible" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingRight="10dip" android:indeterminateOnly="true" style="@style/content_page_small_text" />
+        </RelativeLayout>
+        <RelativeLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="30dip">
+        	<TextView android:text="@string/oficina" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/oficina" android:visibility="visible" android:gravity="center_vertical" android:layout_centerVertical="true" style="@style/content_page_small_text" android:paddingBottom="30dip"/>
+        	<TextView android:text="@string/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/subtitle3" android:visibility="visible" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:paddingRight="10dip" android:indeterminateOnly="true" style="@style/content_page_small_text" />
+        </RelativeLayout>
+        <RelativeLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="30dip" android:layout_marginTop="-15dip">
+        	<TextView android:text="@string/estado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/estado" android:visibility="visible" android:gravity="center_vertical" android:layout_centerVertical="true" style="@style/content_page_small_text" />
+        	<TextView android:text="@string/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/subtitle4" android:visibility="visible" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingRight="10dip" android:indeterminateOnly="true" style="@style/content_page_small_text" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout> 

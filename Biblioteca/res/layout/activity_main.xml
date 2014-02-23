@@ -55,7 +55,6 @@
 
         <include layout="@layout/buscar_boton" />
 
-        <include layout="@layout/web_boton" />
     </LinearLayout>
 
 </LinearLayout>

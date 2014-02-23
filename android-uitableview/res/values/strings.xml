@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Android-uitableview</string>
+    <string name="titulo">title</string>
+    <string name="summary">summary</string>
+    <string name="fecha">Fecha :</string>
+    <string name="usuario">Usuario :</string>
+    <string name="oficina">Oficina :</string>
+    <string name="estado">Estado :</string>
+</resources>
